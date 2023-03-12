@@ -1,0 +1,423 @@
+fileFormatVersion: 2
+guid: f1ec2f60043de5a4ba0b3dca45b9e4cb
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: chess-pieces-icon-set-black-and-white-chess-figures-simple-stylized-symbols-isolated-vector-illustration-2AFEAWG_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 235
+        width: 116
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15747d363a70d4e4c8b7dd88f5c8f8da
+      internalID: -566139907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chess-pieces-icon-set-black-and-white-chess-figures-simple-stylized-symbols-isolated-vector-illustration-2AFEAWG_1
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 235
+        width: 121
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4a5f0f51df8b5647b94655f5f33d545
+      internalID: -949639796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chess-pieces-icon-set-black-and-white-chess-figures-simple-stylized-symbols-isolated-vector-illustration-2AFEAWG_2
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 235
+        width: 121
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a51511bce251734ab2290d04c32f1d8
+      internalID: -2062541773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chess-pieces-icon-set-black-and-white-chess-figures-simple-stylized-symbols-isolated-vector-illustration-2AFEAWG_3
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 235
+        width: 116
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63b63531b3d5331499c9011d90f1943a
+      internalID: -1310181135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chess-pieces-icon-set-black-and-white-chess-figures-simple-stylized-symbols-isolated-vector-illustration-2AFEAWG_4
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 235
+        width: 149
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e05ddd8bb071c44ab73af7ff155688b
+      internalID: 660311639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chess-pieces-icon-set-black-and-white-chess-figures-simple-stylized-symbols-isolated-vector-illustration-2AFEAWG_5
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 235
+        width: 150
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d3842376153f2e4db8647dab13f4634
+      internalID: 1798404326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chess-pieces-icon-set-black-and-white-chess-figures-simple-stylized-symbols-isolated-vector-illustration-2AFEAWG_6
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 5
+        width: 132
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae4fcd160db9cc94280e17c367e83489
+      internalID: 283147294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chess-pieces-icon-set-black-and-white-chess-figures-simple-stylized-symbols-isolated-vector-illustration-2AFEAWG_7
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 5
+        width: 137
+        height: 163
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4576664b44f6a34b88b1abac218024c
+      internalID: -355818038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chess-pieces-icon-set-black-and-white-chess-figures-simple-stylized-symbols-isolated-vector-illustration-2AFEAWG_8
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 5
+        width: 136
+        height: 167
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb52e788d9ebae44090429307dc40a66
+      internalID: 195684277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chess-pieces-icon-set-black-and-white-chess-figures-simple-stylized-symbols-isolated-vector-illustration-2AFEAWG_9
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 5
+        width: 132
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82f2ff703eec26d4bbae23910190c875
+      internalID: 1723883732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chess-pieces-icon-set-black-and-white-chess-figures-simple-stylized-symbols-isolated-vector-illustration-2AFEAWG_10
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 5
+        width: 165
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16cc27573bc822d4ab6dfbc84ca59378
+      internalID: 270832648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chess-pieces-icon-set-black-and-white-chess-figures-simple-stylized-symbols-isolated-vector-illustration-2AFEAWG_11
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 5
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e6da95612e68d64890bef120a374288
+      internalID: -77106379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      chess-pieces-icon-set-black-and-white-chess-figures-simple-stylized-symbols-isolated-vector-illustration-2AFEAWG_8: 195684277
+      chess-pieces-icon-set-black-and-white-chess-figures-simple-stylized-symbols-isolated-vector-illustration-2AFEAWG_0: -566139907
+      chess-pieces-icon-set-black-and-white-chess-figures-simple-stylized-symbols-isolated-vector-illustration-2AFEAWG_11: -77106379
+      chess-pieces-icon-set-black-and-white-chess-figures-simple-stylized-symbols-isolated-vector-illustration-2AFEAWG_6: 283147294
+      chess-pieces-icon-set-black-and-white-chess-figures-simple-stylized-symbols-isolated-vector-illustration-2AFEAWG_5: 1798404326
+      chess-pieces-icon-set-black-and-white-chess-figures-simple-stylized-symbols-isolated-vector-illustration-2AFEAWG_10: 270832648
+      chess-pieces-icon-set-black-and-white-chess-figures-simple-stylized-symbols-isolated-vector-illustration-2AFEAWG_1: -949639796
+      chess-pieces-icon-set-black-and-white-chess-figures-simple-stylized-symbols-isolated-vector-illustration-2AFEAWG_7: -355818038
+      chess-pieces-icon-set-black-and-white-chess-figures-simple-stylized-symbols-isolated-vector-illustration-2AFEAWG_4: 660311639
+      chess-pieces-icon-set-black-and-white-chess-figures-simple-stylized-symbols-isolated-vector-illustration-2AFEAWG_3: -1310181135
+      chess-pieces-icon-set-black-and-white-chess-figures-simple-stylized-symbols-isolated-vector-illustration-2AFEAWG_2: -2062541773
+      chess-pieces-icon-set-black-and-white-chess-figures-simple-stylized-symbols-isolated-vector-illustration-2AFEAWG_9: 1723883732
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
