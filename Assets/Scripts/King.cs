@@ -19,7 +19,7 @@ public class King : MonoBehaviour
         pieceScript = GetComponent<Pieces>();
     }
 
-    private void OnMouseDown()
+    public void OnMouseDown()
     {
         if (pieceScript.canMove)
         {

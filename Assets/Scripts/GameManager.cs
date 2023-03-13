@@ -23,6 +23,8 @@ public class GameManager : MonoBehaviour
 
     public GameObject whiteKing, blackKing;
 
+    public bool kingInCheck;
+
     [SerializeField]
     //private GameObject selectedTile;
     private GameObject marker;
@@ -50,6 +52,19 @@ public class GameManager : MonoBehaviour
             Debug.Log("ran counter");
             StartCoroutine(TurnCounter());
             CanCastle();
+        }
+        if (kingInCheck)
+        {
+            if (whiteKing.GetComponent<Pieces>().canMove)
+            {
+                selectedPiece = whiteKing;
+                whiteKing.GetComponent<King>().OnMouseDown();
+            }
+            else
+            {
+                selectedPiece = blackKing;
+                blackKing.GetComponent<King>().OnMouseDown();
+            }
         }
     }
 
@@ -285,6 +300,7 @@ public class GameManager : MonoBehaviour
         }
         movementMarkers.Clear();
         Destroy(marker);
+        kingInCheck = InCheck();
         if(CheckPawn() == true)
         {
             StartCoroutine(PromotionSelection());
@@ -451,5 +467,136 @@ public class GameManager : MonoBehaviour
                 }
             }
         }
+    }
+
+    public bool InCheck()
+    {
+        foreach(GameObject piece in pieces)
+        {
+            switch (piece.GetComponent<Pieces>().isPiece)
+            {
+                case Pieces.PieceType.pawn:
+                    for (int i = 0; i < tiles.Count; i++)
+                    {
+                        if (piece.transform.IsChildOf(tiles[i].transform))
+                        {
+                            piece.GetComponent<Pawn>().positions.Clear();
+                            piece.GetComponent<Pawn>().CalculateMovement(i);
+                            foreach(GameObject position in piece.GetComponent<Pawn>().positions)
+                            {
+                                if(position.transform.childCount != 0)
+                                {
+                                    if (position.transform.GetChild(0).GetComponent<Pieces>().isPiece == Pieces.PieceType.king)
+                                    {
+                                        if(position.transform.GetChild(0).GetComponent<Pieces>().isWhite != piece.GetComponent<Pieces>().isWhite)
+                                        {
+                                            Debug.Log("pawn check");
+                                            return true;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    break;
+                case Pieces.PieceType.rook:
+                    for (int i = 0; i < tiles.Count; i++)
+                    {
+                        if (piece.transform.IsChildOf(tiles[i].transform))
+                        {
+                            piece.GetComponent<Rook>().positions.Clear();
+                            piece.GetComponent<Rook>().CalculateMovement(i);
+                            foreach (GameObject position in piece.GetComponent<Rook>().positions)
+                            {
+                                if (position.transform.childCount != 0)
+                                {
+                                    if (position.transform.GetChild(0).GetComponent<Pieces>().isPiece == Pieces.PieceType.king)
+                                    {
+                                        if (position.transform.GetChild(0).GetComponent<Pieces>().isWhite != piece.GetComponent<Pieces>().isWhite)
+                                        {
+                                            Debug.Log("pawn check");
+                                            return true;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    break;
+                case Pieces.PieceType.knight:
+                    for (int i = 0; i < tiles.Count; i++)
+                    {
+                        if (piece.transform.IsChildOf(tiles[i].transform))
+                        {
+                            piece.GetComponent<Knight>().positions.Clear();
+                            piece.GetComponent<Knight>().CalculateMovement(i);
+                            foreach (GameObject position in piece.GetComponent<Knight>().positions)
+                            {
+                                if (position.transform.childCount != 0)
+                                {
+                                    if (position.transform.GetChild(0).GetComponent<Pieces>().isPiece == Pieces.PieceType.king)
+                                    {
+                                        if (position.transform.GetChild(0).GetComponent<Pieces>().isWhite != piece.GetComponent<Pieces>().isWhite)
+                                        {
+                                            Debug.Log("pawn check");
+                                            return true;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    break;
+                case Pieces.PieceType.bishop:
+                    for (int i = 0; i < tiles.Count; i++)
+                    {
+                        if (piece.transform.IsChildOf(tiles[i].transform))
+                        {
+                            piece.GetComponent<Bishop>().positions.Clear();
+                            piece.GetComponent<Bishop>().CalculateMovement(i);
+                            foreach (GameObject position in piece.GetComponent<Bishop>().positions)
+                            {
+                                if (position.transform.childCount != 0)
+                                {
+                                    if (position.transform.GetChild(0).GetComponent<Pieces>().isPiece == Pieces.PieceType.king)
+                                    {
+                                        if (position.transform.GetChild(0).GetComponent<Pieces>().isWhite != piece.GetComponent<Pieces>().isWhite)
+                                        {
+                                            Debug.Log("pawn check");
+                                            return true;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    break;
+                case Pieces.PieceType.queen:
+                    for (int i = 0; i < tiles.Count; i++)
+                    {
+                        if (piece.transform.IsChildOf(tiles[i].transform))
+                        {
+                            piece.GetComponent<Queen>().positions.Clear();
+                            piece.GetComponent<Queen>().CalculateMovement(i);
+                            foreach (GameObject position in piece.GetComponent<Queen>().positions)
+                            {
+                                if (position.transform.childCount != 0)
+                                {
+                                    if (position.transform.GetChild(0).GetComponent<Pieces>().isPiece == Pieces.PieceType.king)
+                                    {
+                                        if (position.transform.GetChild(0).GetComponent<Pieces>().isWhite != piece.GetComponent<Pieces>().isWhite)
+                                        {
+                                            Debug.Log("pawn check");
+                                            return true;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    break;
+            }
+        }
+        return false;
     }
 }
